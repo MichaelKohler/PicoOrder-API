@@ -1,16 +1,13 @@
 (function () {
-  'use strict';
+    'use strict';
 
-  exports.async = require('async');
-  exports.bcrypt = require('bcrypt');
+    exports.async = require('async');
+    exports.bcrypt = require('bcrypt');
+    exports.mongoose  = require('mongoose');
+    exports.restify = require('restify');
+    exports.q = require('q');
 
-  /** MongoDB  */
-  var mongo = require('mongodb');
-  var dbServer = new mongo.Server('localhost', 27017, { auto_reconnect: true, poolSize: 1 });
-  exports.db = new mongo.Db('pb', dbServer, { safe: true });
+    exports.users = require('./models/users');
 
-  /** Models **/
-  exports.users = require('./models/users');
-
-  return exports;
+    return exports;
 }());

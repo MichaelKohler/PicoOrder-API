@@ -2,13 +2,13 @@
 
 var globals = require('../globals');
 
-exports.listAll = function (req, res) {
-  globals.async.parallel([
+exports.createUser = function (req, res) {
+    globals.async.parallel([
 
-  ], function (err) {
-    if (err) {
-    }
-    else {
-    }
-  });
+    ], function (err) {
+        if (err) {
+        }
+        else {
+        }
+    });
 };
