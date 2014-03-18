@@ -7,7 +7,5 @@
     exports.restify = require('restify');
     exports.q = require('q');
 
-    exports.users = require('./models/users');
-
     return exports;
 }());
