@@ -14,7 +14,6 @@ describe('Users', function() {
             done();
         }, function (error) {
             currentUser = null;
-            console.log('Test failed: ' + error.message);
             done();
         });
     });
