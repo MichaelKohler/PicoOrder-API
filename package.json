@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "author": "PicoOrder.com",
   "description": "",
-  "dependencies" : {
-    "restify"             :  "2.6.*",
-    "bcrypt"              :  "0.7.*",
-    "mongoose"            :  "3.8.*",
-    "async"               :  "0.2.*",
-    "q"                   :  "1.0.*",
-    "mocha"               :  "1.18.*",
-    "should"              :  "3.1.*"
+  "dependencies": {
+    "restify": "5.0.1",
+    "bcrypt": "0.7.*",
+    "mongoose": "4.11.14",
+    "async": "0.2.*",
+    "q": "1.0.*",
+    "mocha": "4.0.0",
+    "should": "3.1.*"
   }
 }
